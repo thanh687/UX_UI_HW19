@@ -1,0 +1,12 @@
+$(".CTA").on("hover",function(){
+    $(this).css("background-color","#C70039");
+    $(this).css("padding-left","40px");
+    $(this).css("padding-right","40px");
+    $(this).css("font-weight","bold");
+})
+$(".CTA").mouseleave(function(){
+    $(this).css("background-color","#F65158");
+    $(this).css("padding-left","20px");
+    $(this).css("padding-right","20px");
+    $(this).css("font-weight","normal");
+})
