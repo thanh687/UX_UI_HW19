@@ -126,6 +126,7 @@ ul{
     height: 400px;
     background-color: lightgray;
     transform: translate(30px,100px);
+    text-align: center;
 }
 .header{
     
@@ -161,5 +162,17 @@ ul{
     transform: scale(0,2);
     background: #C70039;
     font-size: bold;
+}
+h3{
+    padding-top: 50%;
+    text-decoration: none;
+    color: #28324B;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.mySkills:hover{
+    background-color: #F65158;
+    color: white;
 }
 
